@@ -1,0 +1,72 @@
+:root{
+    --backgroud:#DAF7DC;
+    --btn-backgroung:#9EE493;
+    --border:1px solid #000;
+}
+.header{
+    padding: 15px ;
+    background-color: var(--backgroud);
+    .container{
+        .wrapper{
+            .row{
+                .header-content{
+                    display: flex;
+                   
+                    .logo{
+                        img{
+                            width: 100%;
+                            
+                        }
+                    }
+                    .menu{
+                        width: 100%;
+                        text-align: center;
+                        #menu{
+                            margin-left: 20px;
+                            text-decoration: none;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 15px;
+       
+        width: 100%;
+        border: var(--border);
+
+
+        .container {
+            .wrapper {
+                .row {
+                    .header-content {
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin-left: 30px;
+                        .logo{
+                            width:150px;
+                            margin-left: -35px;
+
+                        }
+                   
+
+                            .menu {
+                                //border: var(--border);
+                                width: 150px;
+                                margin-left: 0px;
+                                display: none;
+                            }
+
+                  
+
+                    }
+                }
+            }
+        }
+    }
+
+}
