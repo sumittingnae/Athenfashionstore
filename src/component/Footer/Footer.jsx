@@ -90,7 +90,7 @@ import { Link } from 'react-router-dom';
                         <p>Stay Updated on all that's new add noteworthy</p>
                         <div className="input">
                           <input type="text" placeholder="signup" />
-                          <button className="btn">Search</button>
+                          <button className="btn">Signup</button>
                         </div>
                         <div className="social-media">
                           <Link id="social">

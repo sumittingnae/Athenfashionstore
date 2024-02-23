@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Men",
+    "img": "./MEN.png",
+    "description":"ReactJS service empowers seamless UI development with reusable components, state management, and a virtual DOM for efficient, interactive web applications."
+  },
+   {
+    "id": 2,
+    "name": "WOMEN",
+    "img": "./WOMEN.png",
+    "description":"Cloud computing service provides scalable, on-demand resources, enhancing flexibility, efficiency, and innovation in application development and deployment."
+   
+  },
+  {
+    "id": 3,
+    "name": "Kids",
+    "img": "./KIDS.png",
+    "description":"Data analytic service leverages advanced tools to extract, process, and analyze data, facilitating informed decision-making and strategic insights for businesses. "
+
+  }
+ 
+
+]

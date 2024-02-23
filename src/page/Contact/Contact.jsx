@@ -1,9 +1,56 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import Header from '../../component/header/header';
 import Footer from '../../component/Footer/Footer';
 import './Contact.scss';
+import { ToastContainer, toast } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
+
+
 
  const Contact=()=>{
+  const [formData , setformData]=useState({
+    name:"",
+    contact:"",
+    email:"",
+    address:"",
+    message:""
+  })
+
+const handleChange = (e) => {
+  const { name, value } = e.target;
+  setformData((prevState) => ({
+    ...prevState,
+    [name]: value,
+  }));
+};
+
+
+ const handleSubmit = () => {
+   if (
+     !formData.name ||
+     !formData.contact ||
+     !formData.email ||
+     !formData.message ||
+     !formData.address
+   ) {
+     toast.error("Please fill in all fields");
+     return;
+   }
+
+   // Save the form data in local storage
+   const storedformDatas = JSON.parse(localStorage.getItem("formDatas")) || [];
+   const updatedformDatas = [...storedformDatas, formData];
+   localStorage.setItem("formDatas", JSON.stringify(updatedformDatas));
+
+   toast.success("Successfully sent");
+   setformData({
+     name: "",
+     contact: "",
+     message: "",
+     email: "",
+     address:""
+   });
+ };
 
     return (
       <>
@@ -44,47 +91,65 @@ import './Contact.scss';
                       </div>
                     </div>
                     <div className="form">
+                      <ToastContainer />
                       <div className="form-group">
                         <label>Name</label>
                         <input
                           type="text"
                           placeholder="Name"
                           className="form-control"
+                          onChange={handleChange}
+                          value={formData.name}
+                          name="name"
                         />
                       </div>
                       <div className="form-group">
-                        <label>Name</label>
+                        <label>Contact</label>
                         <input
                           type="text"
-                          placeholder="Name"
+                          placeholder="Contact"
                           className="form-control"
+                          onChange={handleChange}
+                          value={formData.contact}
+                          name="contact"
                         />
                       </div>
                       <div className="form-group">
-                        <label>Name</label>
+                        <label>Email</label>
                         <input
                           type="text"
-                          placeholder="Name"
+                          placeholder="Email"
                           className="form-control"
+                          onChange={handleChange}
+                          value={formData.email}
+                          name="email"
                         />
                       </div>
                       <div className="form-group">
-                        <label>Name</label>
+                        <label>Address</label>
                         <input
                           type="text"
-                          placeholder="Name"
+                          placeholder="Address"
                           className="form-control"
+                          onChange={handleChange}
+                          value={formData.address}
+                          name="address"
                         />
                       </div>
                       <div className="form-group">
-                        <label>Name</label>
-                        <input
+                        <label>Message</label>
+                        <textarea
                           type="text"
-                          placeholder="Name"
+                          placeholder="Message"
                           className="form-control"
+                          onChange={handleChange}
+                          value={formData.message}
+                          name="message"
                         />
                       </div>
-                      <button className="btn">Send</button>
+                      <button className="btn" onClick={handleSubmit}>
+                        Send
+                      </button>
                     </div>
 
                     <div></div>

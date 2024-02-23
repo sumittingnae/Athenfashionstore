@@ -1,0 +1,63 @@
+:root {
+    --backgroud: #DAF7DC;
+    --btn-backgroung: #9EE493;
+    --border: 1px solid #000;
+}
+
+
+
+.canva {
+
+    width: 70px;
+    text-align: center;
+    height: 40px;
+    margin-top: -35px;
+    margin-left: 200px;
+    display: none;
+    background-color: var(--btn-background);
+    color: #000;
+
+}
+
+.canvas {
+    background-color: #daf7dcbb;
+
+    //border: var(--border);
+    .menu-link {
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+        margin-right: 20px;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        margin-bottom: 50px;
+
+        padding: 10px 10px;
+        border-radius: 40px 0px 50px 0px;
+        background-color: var(--btn-background);
+        
+
+
+    }
+
+    .menu-link:hover {
+        background-color: #fff;
+        color: var(--btn-background);
+        border: 1px solid var(--btn-background);
+    }
+
+    .body {
+        display: block;
+    }
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .canva {
+        display: flex;
+
+
+    }
+}

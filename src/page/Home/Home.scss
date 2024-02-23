@@ -1,0 +1,443 @@
+:root {
+    --background: #DAF7DC;
+    --btn-background: #9EE493;
+    --border: 1px solid #000;
+}
+
+.home {
+    .container {
+        background: var(--background);
+
+        .wrapper {
+            background: var(--background);
+
+            .row {
+                background: rgba(218, 247, 220, 0.557);
+
+                .home-content {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .left-side {
+                        width: 500px;
+                        margin-left: 100px;
+
+                        p {
+                            margin-top: 150px;
+                            margin-left: 100px;
+                            width: 50px;
+                            border-left: 1px solid var(--btn-background);
+                            padding: 10px 15px;
+                            font-weight: 900;
+                        }
+
+                        h6 {
+                            font-size: 50px;
+                            margin-left: 50px;
+                            margin-top: 30px;
+                        }
+
+                        .btn {
+                            background: var(--btn-background);
+                            color: #fff;
+                            font-weight: 500;
+                            margin-left: 50px;
+                            margin-top: 30px;
+                        }
+                    }
+
+                    .right-side {
+                        margin-left: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.slide {
+    margin-top: 50px;
+    width: 100%;
+
+    .container {
+        .wrapper {
+            .row {
+                .slide-content {
+                    .slide-card {
+                        display: flex;
+
+                        .men {
+                            background-color: rgba(218, 247, 220, 0.557);
+                            width: 400px;
+                            display: flex;
+                            height: 400px;
+                            margin-left: 20px;
+
+                            .left-content {
+                                padding: 50px;
+
+                                h6 {
+                                    font-size: 50px;
+                                }
+                            }
+
+                            .right-content {
+                                width: 300px;
+                                margin-top: 70px;
+                                margin-left: -50px;
+                                overflow: hidden;
+
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+
+                    .men:hover {
+                        overflow: hidden;
+                        background-color: rgba(218, 247, 220, 0.557);
+                        display: flex;
+
+                        .left-content {
+                            h6 {
+                                color: #d8a026;
+                            }
+                        }
+
+                        .right-content {
+                            width: 100;
+
+                            img {
+                                width: 280px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.service {
+    margin-top: 100px;
+
+    .container {
+        .wrapper {
+            .row {
+                .service-content {
+                    padding: 50px;
+                    display: flex;
+                    margin-left: 50px;
+
+                    .delivery {
+                        text-align: center;
+                        margin-right: 40px;
+                        margin-left: 80px;
+                        animation: fadeIn 0.5s ease forwards;
+                        opacity: 0;
+
+                        i {
+                            font-size: 50px;
+                            color: #9EE493;
+                            animation: fadeIn 0.5s ease forwards;
+                        opacity: 0;
+
+                        }
+
+                        p {
+                            font-size: 20px;
+                            font-weight: 500;
+                            margin-bottom: 0px;
+                        }
+
+                        span {
+                            margin-top: -10px;
+                            font-size: 15px;
+                        }
+                    }
+
+                    .delivery:hover {
+                        color: #d8a026;
+                        cursor: pointer;
+
+                        i {
+                            color: #d8a026;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+.blog {
+    margin-top: 150px;
+    margin-bottom: 100px;
+
+    .container {
+        .wrapper {
+            .row {
+                h5 {
+                    text-align: center;
+                    font-size: 60px;
+                    margin-bottom: 30px;
+                    font-weight: 300;
+                }
+               .button{
+                .btn {
+                        margin-left: 50%;
+                        border-bottom: 3px solid #9EE493;
+                        background: #9EE493;
+                
+                    }
+                
+                    .btn:hover {
+                        background: #fff;
+                        border: 1px solid #9EE493;
+                    }
+               }
+                .blog-content {
+                    display: flex;
+                    width: 100%;
+                    margin-bottom: 50px;
+                    
+                
+
+                .card {
+                    width: 28rem;
+                    border-radius: 30px;
+                    margin-left: 20px;
+                    overflow: hidden;
+                    height: 500px;
+
+                    .img {
+                        width: 28rem;
+                        height: 300px;
+                        //border: 1px solid #000;
+                        overflow: hidden;
+
+                        img {
+                            width: 100%;
+                            
+                            border-radius: 30px 30px 0px 0px;
+                        }
+                    }
+                    .card-title{
+                        height: 60px;
+                        //border: 1px solid #000;
+                    }
+                    .card-text{
+                        height: 100px;
+                        overflow: hidden;
+                    }
+
+                    .btn {
+                        background: var(--btn-background);
+                        color: #000;
+                    }
+
+                    .btn:hover {
+                        background: #fff;
+                        border: 2px solid var(--btn-background);
+                    }
+                }
+            }
+        }
+    }
+}}
+
+@media (max-width: 768px) {
+    .home {
+        .container {
+            .wrapper {
+                .row {
+                    .home-content {
+                        .left-side {
+                            width: 160px;
+                            margin-left: -40px;
+
+                            p {
+                                margin-top: 100px;
+                                margin-left: 50px;
+                                width: 50px;
+                            }
+
+                            h6 {
+                                font-size: 30px;
+                                margin-left: 50px;
+                                margin-top: 30px;
+                            }
+                        }
+
+                        .right-side {
+                            margin-left: -8px;
+                            width: 200px;
+                            margin-top: 80px;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .slide {
+        margin-top: 50px;
+        width: 100%;
+        overflow: hidden;
+
+        .container {
+            .wrapper {
+                .row {
+                    .slide-content {
+                        .slide-card {
+                            display: flex;
+                            flex-wrap: wrap;
+
+                            .men {
+                                background-color: rgba(218, 247, 220, 0.557);
+                                width: 100%;
+                                display: flex;
+                                height: 300px;
+                                margin-left: 20px;
+                                margin-top: 20px;
+
+                                .left-content {
+                                    padding: 30px;
+
+                                    h6 {
+                                        font-size: 30px;
+                                    }
+                                }
+
+                                .right-content {
+                                    width: 300px;
+                                    margin-top: 70px;
+                                    margin-left: -30px;
+
+                                    img {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+
+                        .men:hover {
+                            overflow: hidden;
+                            background-color: rgba(218, 247, 220, 0.557);
+
+                            .left-content {
+                                h6 {
+                                    color: #d8a026;
+                                }
+                            }
+
+                            .right-content {
+                                width: 300px;
+
+                                img {
+                                    width: 200px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+        .blog {
+            margin-top: 150px;
+    
+            .container {
+                .wrapper {
+                    .row {
+                        h5 {
+                            text-align: center;
+                            font-size: 60px;
+                            margin-bottom: 30px;
+                            font-weight: 300;
+                        }
+    
+                        .button {
+                            .btn {
+                                margin-left: 50%;
+                                border-bottom: 3px solid #9EE493;
+                                background: #9EE493;
+    
+                            }
+    
+                            .btn:hover {
+                                background: #fff;
+                                border: 1px solid #9EE493;
+                            }
+                        }
+    
+                        .blog-content {
+                            display: block;
+                            width: 100%;
+                            margin-bottom: 50px;
+    
+    
+    
+                            .card {
+                                width: 18rem;
+                                border-radius: 30px;
+                                margin-left: 20px;
+                                overflow: hidden;
+                                height: 500px;
+    
+                                .img {
+                                    width: 18rem;
+                                    height: 300px;
+                                    //border: 1px solid #000;
+                                    overflow: hidden;
+    
+                                    img {
+                                        width: 100%;
+    
+                                        border-radius: 30px 30px 0px 0px;
+                                    }
+                                }
+    
+                                .card-title {
+                                    height: 60px;
+                                    font-size: 18px;
+                                    //border: 1px solid #000;
+                                }
+    
+                                .card-text {
+                                    height: 100px;
+                                  
+                                    overflow: hidden;
+                                }
+    
+                               
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}

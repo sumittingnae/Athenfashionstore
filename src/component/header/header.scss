@@ -21,17 +21,88 @@
                     .menu{
                         width: 100%;
                         text-align: center;
+                       // border: var(--border);
                         #menu{
                             margin-left: 20px;
                             text-decoration: none;
                             color: #000;
+                            font-size: 25px;
+                        }
+                    }
+                    .contented{
+                        margin-left: 30px;
+                        //border: var(--border);
+
+                        .icons{
+                            display: flex;
+                            .btns{
+                                padding: 0px;
+                                text-decoration: none;
+                                color: #000;
+                            }
+                            i{
+                                margin-left: 20px;
+                                margin-top: 10px;
+                                font-size: 20px;
+                            }
+                            .dropdown-menu{
+                                li{
+                                    display: flex;
+                                height: 30px;
+                                       input {
+                                padding: 5px;
+                                border-radius: 5px;
+                                border: none;
+                                border-bottom: 1px solid #fff;
+                                height: 100%;
+                                
+                            }
+
+                            // Text
+                            input[type=text] {
+                                appearance: none;
+                                border: none;
+                                outline: none;
+                                border-bottom: .2em solid #fff;
+                                border-radius: .2em .2em 0 0;
+                                padding: .4em;
+
+                            }
+                        }
+                                    .dropdown-item{
+                                        margin-left: 0px;
+                                    i{
+                                        margin-top: -20px;
+                                    }
+                                        i:hover{
+                                            color: #DAF7DC;
+                                        }
+                                        p{
+                                            i:hover{
+                                                color:#000;
+                                            }
+                                           span{
+                                            margin-left: 20px;
+                                           }
+                                        }
+
+                                    }
+                                .dropdown-item:hover{
+                                    background-color: #fff;
+                                }
+
+                                }
+                            }
+                            .btns:hover{
+                                color: #20df2db5;
+                            }
                         }
                     }
                 }
             }
         }
     }
-}
+
 @media only screen and (max-width: 768px) {
     .header {
         padding: 15px;
@@ -59,7 +130,11 @@
                                 width: 150px;
                                 margin-left: 0px;
                                 display: none;
+                                
                             }
+                                                          .contented {
+                                                            display: none;
+                                                          }
 
                   
 
