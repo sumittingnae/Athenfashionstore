@@ -28,8 +28,8 @@ function Example() {
           <Link className="menu-link" to="/">
             Home
           </Link>
-          <Link className="menu-link" to="/shop">
-            Shop
+          <Link className="menu-link" to="/product">
+            Product
           </Link>
           <Link className="menu-link" to="/blog">
             Blog
@@ -38,7 +38,7 @@ function Example() {
             Conatct
           </Link>
 
-          <div class="dropdown">
+          {/* <div class="dropdown">
             <Link
               type="link"
               id="navbarDarkDropdownMenuLink"
@@ -66,7 +66,7 @@ function Example() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
         </Offcanvas.Body>
       </Offcanvas>
     </>

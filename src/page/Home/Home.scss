@@ -367,6 +367,33 @@
             }
         }
     }
+
+
+.service {
+     margin-top: 100px;
+    
+    .container {
+         .wrapper {
+        .row {
+                .service-content {
+                            padding: 0px;
+                            display: block;
+                            margin-left: 0px;
+    
+                            .delivery {
+                                text-align: center;
+                                margin-right: 40px;
+                                margin-left: 80px;
+                                animation: fadeIn 0.5s ease forwards;
+                                opacity: 0;
+    
+                               
+                        }
+                    }
+                }
+            }
+        }
+    }
         .blog {
             margin-top: 150px;
     
