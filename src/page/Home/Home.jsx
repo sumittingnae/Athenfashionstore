@@ -93,8 +93,12 @@ import { Link } from 'react-router-dom';
                     <div className="slide-card">
                       {data.map((item) => (
                         <div key={item.id} className="men">
+                          {" "}
                           <div className="left-content">
-                            <h6>{item.name}</h6>
+                            <Link to="/product" className="link">
+                              {" "}
+                              <h6>{item.name}</h6>
+                            </Link>
                             <p>Items: 4</p>
                           </div>
                           <div className="right-content">

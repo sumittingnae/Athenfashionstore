@@ -16,7 +16,8 @@ const Shop = () => {
   }, []);
 
   const handleCategory = (event) => {
-    setSelectcategory(event.target.value);
+    const { value } = event.target;
+    setSelectcategory(value === selectcategory ? "All" : value);
   };
 
   const handleMinPriceChange = (event) => {
@@ -34,11 +35,12 @@ const Shop = () => {
       filtered = filtered.filter((data) => data.category === selectcategory);
     }
 
-    if (minPrice !== "" && maxPrice !== "") {
-      filtered = filtered.filter(
-        (data) =>
-          data.price >= parseInt(minPrice) && data.price <= parseInt(maxPrice)
-      );
+    if (minPrice !== "") {
+      filtered = filtered.filter((data) => data.price >= parseInt(minPrice));
+    }
+
+    if (maxPrice !== "") {
+      filtered = filtered.filter((data) => data.price <= parseInt(maxPrice));
     }
 
     return filtered;
@@ -58,55 +60,49 @@ const Shop = () => {
                     <div className="category">
                       <ul>
                         <li>
-                          <div className="men">
-                            <input
-                              type="checkbox"
-                              value="All"
-                              onChange={handleCategory}
-                              defaultChecked
-                            />
-                            <label>All</label>
-                          </div>
+                          <input
+                            type="checkbox"
+                            value="All"
+                            onChange={handleCategory}
+                            checked={selectcategory === "All"}
+                          />
+                          <label>All</label>
                         </li>
                         <li>
-                          <div className="men">
-                            <input
-                              type="checkbox"
-                              value="Men"
-                              onChange={handleCategory}
-                            />
-                            <label>Men</label>
-                          </div>
+                          <input
+                            type="checkbox"
+                            value="Men"
+                            onChange={handleCategory}
+                            checked={selectcategory === "Men"}
+                          />
+                          <label>Men</label>
                         </li>
                         <li>
-                          <div className="men">
-                            <input
-                              type="checkbox"
-                              value="WOMEN"
-                              onChange={handleCategory}
-                            />
-                            <label>Women</label>
-                          </div>
+                          <input
+                            type="checkbox"
+                            value="Women"
+                            onChange={handleCategory}
+                            checked={selectcategory === "Women"}
+                          />
+                          <label>Women</label>
                         </li>
                         <li>
-                          <div className="men">
-                            <input
-                              type="checkbox"
-                              value="Kids"
-                              onChange={handleCategory}
-                            />
-                            <label>Kids</label>
-                          </div>
+                          <input
+                            type="checkbox"
+                            value="Kids"
+                            onChange={handleCategory}
+                            checked={selectcategory === "Kids"}
+                          />
+                          <label>Kids</label>
                         </li>
                         <li>
-                          <div className="men">
-                            <input
-                              type="checkbox"
-                              value=""
-                              onChange={handleCategory}
-                            />
-                            <label>Sadi</label>
-                          </div>
+                          <input
+                            type="checkbox"
+                            value="Sadi"
+                            onChange={handleCategory}
+                            checked={selectcategory === "Sadi"}
+                          />
+                          <label>Sadi</label>
                         </li>
                       </ul>
                     </div>
@@ -142,7 +138,11 @@ const Shop = () => {
                         </div>
                         <div className="card-body">
                           <h5 className="card-title">{data.name}</h5>
-                          <p> <i className="fa-solid fa-indian-rupee-sign"></i> {data.price}</p>
+                          <p>
+                            {" "}
+                            <i className="fa-solid fa-indian-rupee-sign"></i>{" "}
+                            {data.price}
+                          </p>
                           <p className="card-text">{data.description}</p>
                         </div>
                         <div className="button">
@@ -151,7 +151,8 @@ const Shop = () => {
                           </Link>
                           <Link to="/" className="link-btn">
                             <button className="btn">
-                              <i className="fa-solid fa-cart-shopping"></i> Cart
+                              <i className="fa-solid fa-cart-shopping"></i>{" "}
+                              Cart
                             </button>
                           </Link>
                         </div>

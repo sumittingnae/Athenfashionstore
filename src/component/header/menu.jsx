@@ -37,6 +37,9 @@ function Example() {
           <Link className="menu-link" to="/contact">
             Conatct
           </Link>
+          <Link className="menu-link" to="/faq">
+            FAQ
+          </Link>
 
           {/* <div class="dropdown">
             <Link

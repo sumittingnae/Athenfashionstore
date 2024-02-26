@@ -5,8 +5,9 @@
 }
 
 .home {
+    background: var(--background);
     .container {
-        background: var(--background);
+      
 
         .wrapper {
             background: var(--background);
@@ -58,11 +59,15 @@
 .slide {
     margin-top: 50px;
     width: 100%;
+    overflow: hidden;
 
     .container {
+        overflow-x: scroll;
         .wrapper {
             .row {
+              
                 .slide-content {
+                    
                     .slide-card {
                         display: flex;
 
@@ -72,13 +77,19 @@
                             display: flex;
                             height: 400px;
                             margin-left: 20px;
+                            cursor: pointer;
+                            
 
                             .left-content {
                                 padding: 50px;
 
+                               .link{
+                                text-decoration: none;
+                                color: #9EE493;
                                 h6 {
-                                    font-size: 50px;
-                                }
+                                        font-size: 50px;
+                                    }
+                               }
                             }
 
                             .right-content {
@@ -117,6 +128,24 @@
             }
         }
     }
+          // Scrollbar styling
+          .container::-webkit-scrollbar {
+              width: 12px;
+              background: #000;
+          }
+    
+          .container::-webkit-scrollbar-track {
+              background: #fff;
+              max-height: 10px;
+          }
+    
+          .container::-webkit-scrollbar-thumb {
+              background-color: var(--btn-background);
+              border-radius: 50px;
+              border: 7px solid #fff;
+              max-height: 10px;
+              transition: all 0.5s;
+          }
 }
 
 
@@ -192,6 +221,7 @@
 .blog {
     margin-top: 150px;
     margin-bottom: 100px;
+    //background-image: url("../../../public/bg.png");
 
     .container {
         .wrapper {
@@ -306,7 +336,7 @@
     .slide {
         margin-top: 50px;
         width: 100%;
-        overflow: hidden;
+ 
 
         .container {
             .wrapper {
@@ -409,7 +439,7 @@
     
                         .button {
                             .btn {
-                                margin-left: 50%;
+                                margin-left: 40%;
                                 border-bottom: 3px solid #9EE493;
                                 background: #9EE493;
     

@@ -4,15 +4,15 @@
     "name": "Men's T-Shirt",
     "img": "./mens-tshirt.png",
     "category": "Men",
-    "price": 20,
+    "price": 200,
     "description": "Comfortable and stylish men's t-shirt for everyday wear."
   },
   {
     "id": 2,
     "name": "Women Casual Wear and Regular Fit ",
     "img": "./womens-dress.png",
-    "category": "WOMEN",
-    "price": 50,
+    "category": "Women",
+    "price": 500,
     "description": "Elegant women's dress suitable for formal occasions."
   },
   {
@@ -20,7 +20,7 @@
     "name": "Kids' Toy Car",
     "img": "./kids-toy-tshirt.png",
     "category": "Kids",
-    "price": 15,
+    "price": 250,
     "description": "Fun toy car for kids to play with indoors or outdoors."
   },
   {
@@ -28,47 +28,47 @@
     "name": "Men's formal Shoes",
     "img": "./mens-shoes.png",
     "category": "Men",
-    "price": 80,
+    "price": 800,
     "description": "Stylish and durable shoes for men's casual or formal wear."
   },
   {
     "id": 5,
     "name": "Women's Handbag",
     "img": "./womens-handbag.png",
-    "category": "WOMEN",
-    "price": 60,
+    "category": "Women",
+    "price": 500,
     "description": "Fashionable handbag for women to carry essentials with style."
   },
   {
     "id": 6,
-    "name": "Kids' Puzzle Game",
-    "img": "./kids-puzzle-game.png",
+    "name": "Kids Cube",
+    "img": "./kids-cube.png",
     "category": "Kids",
-    "price": 10,
+    "price": 50,
     "description": "Educational puzzle game to enhance kids' cognitive skills."
   },
   {
     "id": 7,
     "name": "Men's Jacket",
-    "img": "./mens-jacket.png",
+    "img": "./mens jacket.png",
     "category": "Men",
-    "price": 100,
+    "price": 1500,
     "description": "Warm and comfortable jacket for men's outdoor activities."
   },
   {
     "id": 8,
     "name": "Women's Watch",
-    "img": "./womens-watch.png",
-    "category": "WOMEN",
-    "price": 70,
+    "img": "./women-watch.png",
+    "category": "Women",
+    "price": 1000,
     "description": "Stylish wristwatch for women to accessorize with elegance."
   },
   {
     "id": 9,
-    "name": "Kids' Coloring Book",
-    "img": "./kids-coloring-book.png",
+    "name": "Kids Shoes",
+    "img": "./kids-shoes.png",
     "category": "Kids",
-    "price": 5,
+    "price": 500,
     "description": "Coloring book filled with fun illustrations for kids to enjoy."
   },
   {
@@ -76,15 +76,15 @@
     "name": "Men's Sunglasses",
     "img": "./mens-sunglasses.png",
     "category": "Men",
-    "price": 30,
+    "price": 300,
     "description": "Trendy sunglasses for men to protect eyes from the sun."
   },
   {
     "id": 11,
     "name": "Women's Scarf",
     "img": "./womens-scarf.png",
-    "category": "WOMEN",
-    "price": 25,
+    "category": "Women",
+    "price": 150,
     "description": "Soft and stylish scarf to accessorize women's outfits."
   },
   {
@@ -92,7 +92,7 @@
     "name": "Kids' Backpack",
     "img": "./kids-backpack.png",
     "category": "Kids",
-    "price": 20,
+    "price": 200,
     "description": "Colorful backpack for kids to carry school essentials."
   },
   {
@@ -100,15 +100,15 @@
     "name": "Men's Belt",
     "img": "./mens-belt.png",
     "category": "Men",
-    "price": 15,
+    "price": 150,
     "description": "Classic leather belt for men's formal or casual wear."
   },
   {
     "id": 14,
     "name": "Women's Earrings",
     "img": "./womens-earrings.png",
-    "category": "WOMEN",
-    "price": 40,
+    "category": "Women",
+    "price": 100,
     "description": "Elegant earrings for women to add sparkle to their look."
   },
   {
@@ -124,15 +124,15 @@
     "name": "Men's Wallet",
     "img": "./mens-wallet.png",
     "category": "Men",
-    "price": 25,
+    "price": 455,
     "description": "Slim and durable wallet for men to keep cards and cash organized."
   },
   {
     "id": 17,
     "name": "Women's Necklace",
     "img": "./womens-necklace.png",
-    "category": "WOMEN",
-    "price": 45,
+    "category": "Women",
+    "price": 465,
     "description": "Statement necklace for women to elevate their outfit."
   },
   {
@@ -140,7 +140,7 @@
     "name": "Kids' Raincoat",
     "img": "./kids-raincoat.png",
     "category": "Kids",
-    "price": 35,
+    "price": 350,
     "description": "Colorful raincoat for kids to stay dry and stylish in the rain."
   },
   {
@@ -148,23 +148,23 @@
     "name": "Men's Watch",
     "img": "./mens-watch.png",
     "category": "Men",
-    "price": 60,
+    "price": 600,
     "description": "Stylish wristwatch for men to keep track of time with elegance."
   },
   {
     "id": 20,
     "name": "Women's Sunglasses",
     "img": "./womens-sunglasses.png",
-    "category": "WOMEN",
-    "price": 35,
+    "category": "Women",
+    "price": 350,
     "description": "Chic sunglasses for women to shield their eyes from the sun."
   },
   {
     "id": 21,
-    "name": "Kids' Rain Boots",
-    "img": "./kids-rain-boots.png",
+    "name": "Toy Car",
+    "img": "./Toy-Car.png",
     "category": "Kids",
-    "price": 25,
+    "price": 250,
     "description": "Colorful rain boots for kids to splash around in puddles."
   },
   {
@@ -172,15 +172,15 @@
     "name": "Men's Cologne",
     "img": "./mens-cologne.png",
     "category": "Men",
-    "price": 40,
+    "price": 400,
     "description": "Refreshing cologne for men to stay fresh and confident all day."
   },
   {
     "id": 23,
     "name": "Women's Perfume",
     "img": "./womens-perfume.png",
-    "category": "WOMEN",
-    "price": 55,
+    "category": "Women",
+    "price": 550,
     "description": "Fragrant perfume for women to add a touch of luxury to their ensemble."
   },
   {
@@ -188,7 +188,7 @@
     "name": "Kids' Lunch Box",
     "img": "./kids-lunch-box.png",
     "category": "Kids",
-    "price": 10,
+    "price": 200,
     "description": "Colorful lunch box for kids to carry their snacks to school."
   }
 ]

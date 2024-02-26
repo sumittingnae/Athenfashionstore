@@ -26,8 +26,8 @@ import Menu from './menu';
                       <Link id="menu" to="/product">
                         Product
                       </Link>
-                      <Link id="menu" to="/">
-                        Shop
+                      <Link id="menu" to="/faq">
+                        FAQ's
                       </Link>
                     </div>
                     <div className="contented">

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "question": "What products does Athena Fashion Store offer?",
+    "ans": "Athena Fashion Store offers a wide range of clothing and accessories for men, women, and children. Our product catalog includes dresses, tops, bottoms, outerwear, shoes, handbags, jewelry, and more."
+  },
+  {
+    "id": 2,
+    "question": "How can I place an order?",
+    "ans": "You can place an order on our website by browsing through our catalog, selecting the items you wish to purchase, and adding them to your cart. Proceed to checkout, enter your shipping and payment information, and confirm your order."
+  },
+  {
+    "id": 3,
+    "question": "What payment methods are accepted?",
+    "ans": "We accept various payment methods including credit cards (Visa, Mastercard, American Express), PayPal, and other secure online payment options."
+  },
+  {
+    "id": 4,
+    "question": "What are the shipping options?",
+    "ans": "We offer standard and expedited shipping options. Standard shipping typically takes 3-5 business days for domestic orders, while expedited shipping delivers within 1-2 business days. International shipping options are also available with varying delivery times."
+  },
+  {
+    "id": 5,
+    "question": "Can I track my order?",
+    "ans": "Yes, once your order has been shipped, you will receive a confirmation email with a tracking number. You can use this tracking number to monitor the status and location of your package."
+  },
+  {
+    "id": 6,
+    "question": "What is your return policy?",
+    "ans": "We have a hassle-free return policy. If you're not completely satisfied with your purchase, you can return eligible items within 30 days for a full refund or exchange. Please refer to our Returns & Exchanges page for more details."
+  },
+  {
+    "id": 7,
+    "question": "How can I contact customer support?",
+    "ans": "Our customer support team is available to assist you with any inquiries or concerns. You can reach us by email at support@athenafashionstore.com or by phone at 1-800-123-4567 during our business hours."
+  },
+  {
+    "id": 8,
+    "question": "Do you offer gift cards?",
+    "ans": "Yes, we offer gift cards in various denominations. Gift cards are a perfect way to treat your loved ones to a shopping spree at Athena Fashion Store. You can purchase gift cards online and have them delivered via email."
+  },
+  {
+    "id": 9,
+    "question": "Are there any size guides available?",
+    "ans": "Yes, we provide size guides for our clothing and footwear to help you find the perfect fit. You can refer to the size charts available on product pages for detailed measurements and sizing recommendations."
+  },
+  {
+    "id": 10,
+    "question": "Does Athena Fashion Store offer promotions or discounts?",
+    "ans": "Yes, we regularly run promotions and offer discounts on select items. Be sure to sign up for our newsletter and follow us on social media to stay updated on the latest deals and offers."
+  }
+]
