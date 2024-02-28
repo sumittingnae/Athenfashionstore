@@ -43,7 +43,7 @@ const Faq = () => {
                   {faq.map((questionans) => (
                     <div key={questionans.id}>
                       <h6>
-                        <span>{questionans.id}.</span> {questionans.question}{" "}
+                        <span>{questionans.id}. </span> {questionans.question}{" "}
                       </h6>
                       <p>{questionans.ans}</p>
                     </div>

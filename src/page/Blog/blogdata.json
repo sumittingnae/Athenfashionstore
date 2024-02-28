@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "name": "Fashion Costs",
-    "img": "./blog.jpg",
-    "description":""
+    "name": "The Timeless Elegance of Monochrome Fashion",
+    "img": "./mono.jpg",
+    "description":"In a world inundated with trends, there's something inherently sophisticated about the simplicity of monochrome fashion. Whether it's a classic black ensemble or an understated palette of whites and grays, embracing monochrome is a timeless choice that exudes elegance and refinement.The beauty of monochrome lies in its versatility. A monochromatic outfit effortlessly transitions from day to night, from casual to formal settings, making it a wardrobe essential for every fashion enthusiast. By playing with different textures and silhouettes within the same color family, you can create visually captivating looks that are both chic and understated. Moreover, monochrome fashion offers endless opportunities for personal expression. Whether you prefer sleek and minimalist aesthetics or bold and avant-garde styles, there's a monochrome look to suit every taste and personality. Embracing monochrome allows you to focus on the finer details of your outfit, from intricate patterns to statement accessories, without overwhelming the senses.In a world of ever-changing trends, monochrome fashion remains a steadfast symbol of timeless elegance and sophistication. So why not simplify your wardrobe and embrace the beauty of monochrome? With its effortless versatility and enduring appeal, monochrome fashion is sure to stand the test of time."
   },
    {
     "id": 2,
@@ -17,13 +17,8 @@
     "name": "The Influence of Subcultures and Street Style",
     "img": "./Street.png",
     "description":"Subcultures and street style have long been a driving force behind fashion innovation, challenging mainstream conventions and pushing the boundaries of style. From the countercultural movements of the 1960s to the DIY ethos of the punk scene, subcultures have served as incubators for avant-garde fashion trends that eventually find their way into the mainstream.Street style, characterized by its eclectic mix of influences and emphasis on self-expression, has emerged as a dominant force in contemporary fashion. Fashion bloggers, influencers, and street photographers have democratized the industry, showcasing a diverse array of personal styles that defy categorization. Today, street style is celebrated on social media platforms like Instagram and Pinterest, where fashion enthusiasts share their daily looks and inspire others to embrace their individuality."
-  },
-  {
-    "id": 4,
-    "name": "The Influence of Subcultures and Street Style",
-    "img": "./Street.png",
-    "description":"Subcultures and street style have long been a driving force behind fashion innovation, challenging mainstream conventions and pushing the boundaries of style. From the countercultural movements of the 1960s to the DIY ethos of the punk scene, subcultures have served as incubators for avant-garde fashion trends that eventually find their way into the mainstream.Street style, characterized by its eclectic mix of influences and emphasis on self-expression, has emerged as a dominant force in contemporary fashion. Fashion bloggers, influencers, and street photographers have democratized the industry, showcasing a diverse array of personal styles that defy categorization. Today, street style is celebrated on social media platforms like Instagram and Pinterest, where fashion enthusiasts share their daily looks and inspire others to embrace their individuality."
   }
+ 
   
   
  

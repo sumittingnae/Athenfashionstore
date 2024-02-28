@@ -87,7 +87,7 @@ const handleChange = (e) => {
                       </div>
                       <div className="email">
                         <i className="fa-solid fa-envelope"></i>
-                        <p>At Athena United States</p>
+                        <p>athen@gmai.com</p>
                       </div>
                     </div>
                     <div className="form">

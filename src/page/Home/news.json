@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "name": "Fashion Costs",
-    "img": "./blog.jpg",
-    "description":""
+    "name": "The Timeless Elegance of Monochrome Fashion",
+    "img": "./mono.jpg",
+    "description":"In a world inundated with trends, there's something inherently sophisticated about the simplicity of monochrome fashion. Whether it's a classic black ensemble or an understated palette of whites and grays, embracing monochrome is a timeless choice that exudes elegance and refinement.The beauty of monochrome lies in its versatility. A monochromatic outfit effortlessly transitions from day to night, from casual to formal settings, making it a wardrobe essential for every fashion enthusiast. By playing with different textures and silhouettes within the same color family, you can create visually captivating looks that are both chic and understated."
   },
    {
     "id": 2,

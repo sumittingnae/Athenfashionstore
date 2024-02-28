@@ -5,6 +5,7 @@ import HomeData from "./dats.json";
 import './Home.scss';
 import News from './news.json';
 import { Link } from 'react-router-dom';
+import Offer from '../../component/offer/offers';
 
 
 
@@ -113,6 +114,9 @@ import { Link } from 'react-router-dom';
             </div>
           </div>
         </div>
+
+        {/* ===================offers================= */}
+        <Offer/>
 
         <div className="blog">
           <div className="container">
